@@ -29,7 +29,6 @@ window.active.client.color: #E7E8EB
 window.inactive.client.color: #E7E8EB
 window.active.title.separator.color: #E7E8EB
 window.inactive.title.separator.color: #E7E8EB
-menu.border.color: #E7E8EB
 
 #-- Text shadows --------------------------------------------------
 ## Example -> shadow=y:shadowtint=70:shadowoffset=1
@@ -133,34 +132,35 @@ window.inactive.button.close.hover.image.color: #D7787D
 
 #-- Menu ---------------------------------------------------------
 menu.title.bg: Flat Solid
-menu.title.bg.color: #F5F6F7
+menu.title.bg.color: #E7E8EB
 menu.title.text.color: #5C616C
 
-menu.separator.color: #E7E8EB
+menu.separator.color: #F5F6F7
+menu.border.color: #F5F6F7
 
 menu.items.bg: Flat Solid
-menu.items.bg.color: #E7E8EB
+menu.items.bg.color: #F5F6F7
 menu.items.text.color: #5C616C
 menu.items.disabled.text.color: #7F8898
 
 menu.items.active.bg: Flat Solid
 menu.items.active.bg.color: #5294E2
 menu.items.active.text.color: #FFFFFF
-menu.items.active.disabled.text.color: #E7E8EB
+menu.items.active.disabled.text.color: #7F8898
 
 #-- OSD Settings -------------------------------------------------
 osd.border.width: 4
-osd.border.color: #F5F6F7
+osd.border.color: #E7E8EB
 
 osd.bg: Flat Solid
-osd.bg.color: #E7E8EB
+osd.bg.color: #F5F6F7
 osd.label.text.color: #5C616C
 
 osd.active.label.bg: Flat Solid
-osd.active.label.bg.color: #E7E8EB
+osd.active.label.bg.color: #F5F6F7
 osd.active.label.text.color: #5294E2
 osd.inactive.label.bg: Flat Solid
-osd.inactive.label.bg.color: #E7E8EB
+osd.inactive.label.bg.color: #F5F6F7
 osd.inactive.label.text.color: #5C616C
 
 osd.hilight.bg: Flat Solid
@@ -187,5 +187,5 @@ osd.button.pressed.box.color: #f46067
 osd.button.focused.bg: Flat Solid Border
 osd.button.focused.bg.color: #5294E2
 osd.button.focused.*.border.color: #5294E2
-osd.button.focused.text.color: #2f343f
+osd.button.focused.text.color: #FFFFFF
 osd.button.focused.box.color: #5294E2
